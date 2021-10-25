@@ -21,11 +21,11 @@ public class ConsoleExercises {
 //                What happens if you enter more than 3 words?
 //        only the first three show up
 
-//        System.out.println("Enter 3 words:");
-//        String userInput1 = scanner.next();
-//        String userInput2 = scanner.next();
-//        String userInput3 = scanner.next();
-//        System.out.printf("You entered these three words: %s %s %s.\n", userInput1, userInput2, userInput3);
+        System.out.println("Enter 3 words:");
+        String userInput1 = scanner.next();
+        String userInput2 = scanner.next();
+        String userInput3 = scanner.next();
+        System.out.printf("You entered these three words: %s\n %s\n %s.\n ", userInput1, userInput2, userInput3);
 
 // 3.       Prompt a user to enter a sentence, then store that sentence in a String variable using the next method. Then, display that sentence back to the user.
 
