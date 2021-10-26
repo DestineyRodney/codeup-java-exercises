@@ -104,9 +104,9 @@ public class ControlFlowExercises {
 //
 //        Here is your table!
 //
-//                number | squared | cubed
-//                ------ | ------- | -----
-//                1      | 1       | 1
+//        number | squared | cubed
+//        ------ | ------- | -----
+//        1      | 1       | 1
 //        2      | 4       | 8
 //        3      | 9       | 27
 //        4      | 16      | 64
@@ -169,4 +169,6 @@ public class ControlFlowExercises {
 //        } while (gradeValue.equalsIgnoreCase("yes"));
     }
 }
+
+
 
