@@ -1,4 +1,4 @@
-package Shape;
+package Shapes;
 
 import util.Input;
 

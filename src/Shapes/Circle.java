@@ -1,4 +1,4 @@
-package Shape;
+package Shapes;
 
 public class Circle {
    private double radius;

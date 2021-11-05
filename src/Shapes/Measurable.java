@@ -1,4 +1,4 @@
-package Shape;
+package Shapes;
 
 public interface Measurable {
     double getPerimeter();

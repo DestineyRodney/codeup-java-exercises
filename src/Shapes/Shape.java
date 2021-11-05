@@ -1,4 +1,4 @@
-package Shape;
+package Shapes;
 
 public class Shape {
     protected double length;
