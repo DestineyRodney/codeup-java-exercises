@@ -1,4 +1,4 @@
-package Shapes;
+package shapes;
 
 public abstract class Quadrilateral extends Shape implements Measurable {
 // a constructor that accepts two numbers for the length and width and sets those properties.
