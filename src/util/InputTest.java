@@ -14,13 +14,13 @@ public class InputTest {
 //        System.out.println(userInput2);
 //
 
-//        System.out.println("Enter a number");
-//        int userInput3 = input.getInt();
-//        System.out.println(userInput3);
+        System.out.println("Enter a number");
+        int userInput3 = input.getInt();
+        System.out.println("The number you entered is: " + userInput3);
 
-//        System.out.println("Enter a number between 1 and 10");
-//        int userInput4 = input.getInt(1, 10);
-//        System.out.println(userInput4);
+        System.out.println("Enter a number between 1 and 10");
+        int userInput4 = input.getInt(1, 10);
+        System.out.println("The number you entered between 1 and 10 is: " + userInput4);
 
 //            System.out.println("Enter a decimal number between 1 and 10");
 //            double userInput5 = input.getDouble(1, 10);

@@ -31,8 +31,17 @@ public class Input {
         }
     }
 
+//    int getInt(){
+//        return scanner.nextInt();
+//    }
+
     int getInt(){
-        return scanner.nextInt();
+        try {
+            return Integer.valueOf(getString());
+        } catch (Exception e){
+            System.out.println("Please enter an integer");
+            return getInt();
+        }
     }
 
     double getDouble(double min, double max){
@@ -47,8 +56,13 @@ public class Input {
         }
     }
 
+//    public double getDouble(){
+//        return this.scanner.nextDouble();
+//    }
+
     public double getDouble(){
         return this.scanner.nextDouble();
     }
+
 
 }
